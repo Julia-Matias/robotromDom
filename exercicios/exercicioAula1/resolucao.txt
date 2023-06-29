@@ -1,0 +1,9 @@
+Desafio:
+Substitua a frase dentro das tags <p> </p> do projeto.
+
+Resolução:
+let texto = "O inverno chegou"
+document.getElementById('texto').innerHTML = texto
+
+1°. Identifica o id do elemento a ser alterado.
+2°. Incluir o innerHTML para indicar o elemento a ser substituído.
